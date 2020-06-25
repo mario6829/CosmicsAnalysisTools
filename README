@@ -1,0 +1,22 @@
+Various code snippets to analyze ALICE cosmic data.
+
+I should have saved them years ago, now their history and evolution is
+completely a mess. I won't keep track of it now: let's say this repo is
+a snapshot of the current (i.e. somehow the latest) version of the analysis
+software, mainly to avoid losing it and have it at hand even when my
+desktop is down (which is quite likely, due to the current conditions of
+the Physics building electrical plant).
+
+Some code is mine, other code was developed B.Alessandro. Usually the
+author name is written at the very beginning.
+
+Some macros and scripts are fundamental for submitting analysis jobs on
+AliEn, getting their output and checking the production. Other macros are
+tests done during the development or to check some peculiar runs; they
+were saved here for reference in case they contain some general purpose
+code but without any cleanup.
+
+- code : folder containing code (macros, scripts, and the like)
+- datalist : folder containing lists of runs to be analysed and of
+analysis job ids
+
