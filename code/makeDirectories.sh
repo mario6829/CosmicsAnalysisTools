@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [ "x$2" == "x" ]; then
-  echo "Usage: deleteDirectories.sh <period> <filelist>"
-  echo "(ex. deleteDirectories.sh LHC15a listOfRuns.txt)"
+  echo "Usage: makeDirectories.sh <period> <filelist>"
+  echo "(ex. makeDirectories.sh LHC15a listOfRuns.txt)"
   exit 1
 fi
 
